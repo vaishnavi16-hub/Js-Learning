@@ -1,0 +1,10 @@
+#wrapper{
+    background-color: black;
+    color: white;
+    height: 250mm;
+    width: 250mm;
+    text-align: center;
+    padding-top: 20mm;
+    margin-left: 20mm;
+    font-size: 20pt;
+}

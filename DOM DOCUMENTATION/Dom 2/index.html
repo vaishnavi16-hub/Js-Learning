@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+</head>
+<body style="background-color: pink; color: white;">
+    
+<div class="language">
+    <ul>
+        <li>javascript</li>
+    </ul>
+</div>
+</body>
+<script>
+//    function addLanguage(langName){
+//     const li = document.createElement('li');
+//     li.innerHTML = '${langName}'
+//     document.querySelector('.language').appendChild(li)
+//    }
+//    addLanguage("python")
+
+
+//    function addOptionalLanguage(langName){
+//     const li = document.createElement('li');
+//     li.appendChild(document.createTextNode(langName))
+//     document.querySelector('.language').appendChild(li)
+//    }
+
+//     addOptiLanguage('hindi')
+
+
+
+function addOptiLanguage(langName){
+    const li = document.createElement('li');
+    li.appendChild(document.createTextNode (langName))
+    document.querySelector('.langauge').appendChild(li)
+}
+addOptiLanguage('hindi')
+</script>
+</html>

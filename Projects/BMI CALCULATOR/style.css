@@ -1,0 +1,17 @@
+.container{
+    background-color: GRAY;
+    height: 200MM;
+    width: 200MM;
+}
+
+
+
+form{
+    text-align: center;
+    justify-content: center;
+}
+
+h1{
+    justify-content: center;
+    text-align: center;
+}

@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+}
+
+
+#banner{
+    color: white;
+    text-align: center;
+    justify-content: center;
+    padding-top: 50mm;
+    font-size: 20pt;
+}
+
+ 
+   #clock{
+    background-color: orange;
+    height: 20mm;
+    width: 60mm;
+    margin-left: 145mm;
+    margin-top: 10mm;
+    font-family: 30pt;
+}
